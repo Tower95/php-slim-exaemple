@@ -104,3 +104,6 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/composer,linux,windows,macos,fuelphp
+
+#Database volumen Docker
+DB/

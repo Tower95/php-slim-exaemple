@@ -22,4 +22,4 @@ RUN composer install
 
 COPY ./ ./
 
-CMD [ "php", "-S", "0.0.0.0:8086", "-t", "public", "public/index.php" ]
+CMD [ "php", "-S", "0.0.0.0:8080", "-t", "public", "public/index.php" ]

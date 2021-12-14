@@ -11,7 +11,6 @@ $app = new \Slim\App;
 $app->get('/hello/{name}', function (Request $request, Response $response, array $args) {
     $name = $args['name'];
     $response->getBody()->write("Hello, $name");
-    echo "esto es un echo";
 
     return $response;
 });
